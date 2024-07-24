@@ -11,7 +11,7 @@ namespace HotelFinder.API.Controllers
 
         public MyController(MyService myService)
         {
-            _myService = myService;//
+            _myService = myService;
         }
 
         [HttpGet("data")]
